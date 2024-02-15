@@ -1,4 +1,4 @@
-# PayKey---Simple-Billing-Application
+# PayKey---Simple-Billing-Website
 
  My first website developed with Bootstrap, Javascript, and PHP, which includes basic safety precautions.
    
