@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.icon{
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.249) !important;
+    box-shadow: 1px 1px 2px black;
+    
+}
+.icon:hover{
+    color: white !important;
+    background-color: black !important;
+}
+
+
+/* About */
+.about-img{
+    background-image: url(../imgs/about.png);
+    background-size:cover; 
+    background-position:center; 
+}
+
+
+/* Sign In */
+.signIn{
+    width: 500px !important;
+}
+
+/* Menu Bar */
+.menu-hover{
+    border: none !important;
+    outline: none !important;
+}
+.menu-hover:hover{
+    color: white !important;
+}
+
+/* Services Table */
+.services-table{
+    line-height: 40px !important;
+}
+
+.services-table tr{
+    border-radius: 30px !important;
+
+}
+
+.btn-services-dp{
+    outline: none !important;
+    border: none !important;
+}
+.btn-services-dp:hover{
+    color: dark !important;
+    background-color: rgb(234, 234, 238);
+}
+
+/* Backgrounds */
+.loginBg,.registerbg{
+    background: rgb(238, 174, 202);
+    background: -moz-radial-gradient(circle, rgba(238, 174, 202, 1) 38%, rgba(148, 187, 233, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238, 174, 202, 1) 38%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 38%, rgba(148, 187, 233, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);   
+}
+
+.card-desp{
+   background-image: url("https://i.pinimg.com/originals/d4/a1/63/d4a163d7b21c13667d756d2991c8b637.gif");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.step-card{
+    transition: 1s;
+}
+.step-card:hover{
+    transition: 1s;
+    border: 1px solid rgb(173, 173, 232) !important;
+    margin-bottom: 40px !important;
+    box-shadow: none !important;
+}
+
+.Tutorials{
+    background-image: url("https://i.pinimg.com/originals/df/cf/a1/dfcfa138e153f1f4afec19cf00f6c305.gif");
+   background-position: center;
+   background-size: 50% ;
+   background-repeat: repeat;
+}
